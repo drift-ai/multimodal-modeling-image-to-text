@@ -4,12 +4,15 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+ipykernel = "*"
 
 [packages]
 transformers = "*"
 pillow = "*"
 torch = "*"
+torchvision = "*"
 requests = "*"
+sklearn = "*"
 
 [requires]
 python_version = "3.8"
