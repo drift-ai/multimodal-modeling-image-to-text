@@ -4,7 +4,7 @@ import requests
 import torch
 
 classifier = pipeline("image-classification")
-url = 'http://images.cocodataset.org/val2017/000000039769.jpg'
+url = "http://images.cocodataset.org/val2017/000000039769.jpg"
 image = Image.open(requests.get(url, stream=True).raw)
 predictions = classifier(url)
 predictions
